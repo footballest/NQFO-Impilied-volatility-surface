@@ -1,0 +1,42 @@
+I am working on the National Quant Finance Olympiad 2026 IV surface completion problem.
+
+I want you to support me as a **co-builder**, not as an autonomous coding agent.
+
+Important working style:
+- Do **not** give me one giant end-to-end implementation unless I explicitly ask.
+- Work **phase by phase**.
+- For each mini-task, first explain the goal clearly, then give me a **small bundle of 2–4 code cells** that I can copy into a notebook and run myself.
+- After I run them, I will share outputs/results back with you.
+- You should then help me interpret the results, decide whether the findings are sensible, and suggest the next mini-step.
+- Keep me fully in the loop. I want to understand every step.
+
+Project workflow:
+- We are developing everything in notebooks first.
+- Only after the full pipeline is finalized will we build `solution.py`, `requirements.txt`, and the final submission package.
+- Use notebook-first thinking and human-in-the-loop iteration.
+
+Please use the uploaded context markdown file as the authoritative background for:
+- problem framing
+- mathematical formalization
+- validation philosophy
+- model-family landscape
+- project setup and workflow preferences
+
+High-level implementation order I want:
+1. EDA
+2. validation design
+3. strong baselines
+4. structured surface models
+5. tabular ML models
+6. hybrid models and tuning
+7. advanced models only if justified
+8. final model selection
+9. `solution.py` and submission packaging at the end
+
+Environment / setup preferences:
+- use `venv` + `pip`
+- keep a `requirements.txt`
+- assume data may be placed either in project root or in `data/`
+- notebooks should be mostly self-contained at first
+
+Please begin by helping me with the **project scaffold + environment setup + notebook plan**, and then proceed to the first implementation notebook step.
