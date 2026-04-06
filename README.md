@@ -33,7 +33,9 @@ Because the test set still contains many visible IV rows, the task is closer to 
 
 ## Final model
 
-The locked final model is:
+The locked final model is a **slice-gated hybrid IV completion model**.
+
+In the codebase and notebooks, this model appears under the internal experiment name:
 
 - `hybrid_slice_no_hard_case_override_pruned`
 
